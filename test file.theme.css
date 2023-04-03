@@ -44,9 +44,9 @@
     --name-bg: #ea1f56;
 
     /* Background Colors & BG Image */
-    --bg-gradient1: #ea1f56;
-    --bg-gradient2: #ea1f56;
-    --bg-gradient3: #ea1f56;
+    --bg-gradient1: #fdfeff;
+    --bg-gradient2: #fdfeff;
+    --bg-gradient3: #fdfeff;
     --bg-image: url(https://cdn.discordapp.com/attachments/871267252194930772/1092323236441755688/ISGdlWK.jpeg); /* Write the image url, example url("your url") [none is default]*/
     --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
     --bg-blur: 6px; /* Value in px */
