@@ -79,7 +79,7 @@
     --icon-color: var(--text-color);
     --selected-text-bg: var(--text-color);
     --selected-text-color: var(--channeltextarea-background);
-    --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
+    --mentioned-color: 343, 83%, 52%; /* HSL Values Only */
 
     /* Other options */
     --border-width: 0px;
