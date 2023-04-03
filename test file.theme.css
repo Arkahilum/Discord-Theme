@@ -15,6 +15,10 @@
 ---------------------------------------------------------------*/
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito-base.css');
 /*---------------------------------------------------------------
+               Make it look Like Another Window
+---------------------------------------------------------------*/
+/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/window-mode.css'); /*
+/*---------------------------------------------------------------
                         Custom Settings
 ---------------------------------------------------------------*/
 
@@ -38,15 +42,15 @@
     --custom-text: "";
 
     /* General Colors */
-    --border-color: #ea1f56;
+    --border-color: #fdfeff;
     --drag-gradient1: #ea1f56;
     --drag-gradient2: #ea1f56;
     --name-bg: #ea1f56;
 
     /* Background Colors & BG Image */
-    --bg-gradient1: #fdfeff;
-    --bg-gradient2: #fdfeff;
-    --bg-gradient3: #fdfeff;
+    --bg-gradient1: #ea1f56;
+    --bg-gradient2: #ea1f56;
+    --bg-gradient3: #ea1f56;
     --bg-image: url(https://cdn.discordapp.com/attachments/871267252194930772/1092323236441755688/ISGdlWK.jpeg); /* Write the image url, example url("your url") [none is default]*/
     --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
     --bg-blur: 6px; /* Value in px */
@@ -62,9 +66,9 @@
     --darkL: 16%;   /* Value in % [16% is default] */
 
     /* Windows Buttons Colors */
-    --close-color: #ea1f56;
-    --max-color: #ffdf5b;
-    --min-color: #808080;
+    --close-color: #ff0000;
+    --max-color: #00CA4E;
+    --min-color: #FFBD44;
 
     /* Status Colors */
     --online-color: #60e046;
@@ -79,11 +83,11 @@
     --icon-color: var(--text-color);
     --selected-text-bg: var(--text-color);
     --selected-text-color: var(--channeltextarea-background);
-    --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
+    --mentioned-color: 343, 83%, 52%; /* HSL Values Only */
 
     /* Other options */
-    --border-width: 0px;
-    --round-corners: 0px;
+    --border-width: 3px;
+    --round-corners: 16px;
 }
 
 /* Selection text color */
