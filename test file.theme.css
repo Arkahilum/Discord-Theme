@@ -42,7 +42,7 @@
     --custom-text: "";
 
     /* General Colors */
-    --border-color: #fdfeff;
+    --border-color: #f0a4c1;
     --drag-gradient1: #ea1f56;
     --drag-gradient2: #ea1f56;
     --name-bg: #ea1f56;
@@ -86,7 +86,7 @@
     --mentioned-color: 343, 83%, 52%; /* HSL Values Only */
 
     /* Other options */
-    --border-width: 3px;
+    --border-width: 0px;
     --round-corners: 16px;
 }
 
