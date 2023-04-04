@@ -20,7 +20,13 @@
 /* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/window-mode.css'); /*
 /*---------------------------------------------------------------
                         Custom Settings
----------------------------------------------------------------*/
+----------------------------------------------------------------*/
+/* Message Bubble in Left Side */
+@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
+/* Default Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css); */
+/* New Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css); */
 
 /* Animate the background */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
