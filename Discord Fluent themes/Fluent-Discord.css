@@ -8949,7 +8949,12 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3u
   color: #FFF;
   border-color: rgba(255, 255, 255, 0.0698);
   border-bottom-color: hsl(var(--fluent-accent-hue-sat), var(--fluent-accent-lightness));
+  
 /* Server List Padding */
+.wrapper-2PSQCG {
+    width: 48px;
+    height: 52px;
+}
 
 .theme-dark .guilds-2JjMmN .listItem-3SmSlK {
     width: 68px;
@@ -8963,4 +8968,3 @@ html[lang^=en-].theme-dark .toolbar-3_r2xA .iconWrapper-2awDjA.cursorPointer-B3u
     width: 58px;
     top: 8px;
     bottom: -2px;
-}
