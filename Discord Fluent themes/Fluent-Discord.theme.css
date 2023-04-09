@@ -36,30 +36,10 @@
   --fluent-accent-lightness: 42%;
   --fluent-text-on-accent-color: 0, 0, 0;
   --fluent-acrylic-background: url(https://raw.githubusercontent.com/Arkahilum/Discord-Theme/main/wallpaper/crim/crim%20text%20cleaned%20up.png);
-  --fluent-acrylic-background-blur: 24px;
+  --fluent-acrylic-background-blur: 20px;
   --fluent-acrylic-background-dimness: 75%;
   --fluent-acrylic-background-saturate: 140%;
   --fluent-guilds-icon-size: 24px;
-}
-
-/* Server List Padding */
-.wrapper-2PSQCG {
-    width: 48px;
-    height: 52px;
-}
-
-.theme-dark .guilds-2JjMmN .listItem-3SmSlK {
-    width: 68px;
-}
-
-.theme-dark .guilds-2JjMmN {
-    width: 62px;
-}
-
-.theme-dark .guilds-2JjMmN .expandedFolderBackground-1kSAf6 {
-    width: 58px;
-    top: 8px;
-    bottom: -2px;
 }
 
 /**
