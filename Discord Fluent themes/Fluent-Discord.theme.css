@@ -6,8 +6,7 @@
  * @invite ZYrCacRuez
  * @source https://github.com/TakosThings/Fluent-Discord
 */
-@import url(https://takosthings.github.io/Fluent-Discord/Fluent-Discord.css);
-/**
+@import url(https://takosthings.github.io/Fluent-Discord/Fluent-Discord.css); /**
  * Start user options
  * Visit the wiki for information on this section
  * https://github.com/TakosThings/Fluent-Discord/wiki
@@ -26,10 +25,11 @@
   --fluent-accent-hue-sat: 207, 100%;
   --fluent-accent-lightness: 42%;
   --fluent-text-on-accent-color: 0, 0, 0;
+  --fluent-acrylic-background: url(https://cdn.discordapp.com/attachments/862716886067445820/887579790289297408/Captured_Motion_27.jpg);
   --fluent-acrylic-background-blur: 24px;
   --fluent-acrylic-background-dimness: 75%;
   --fluent-acrylic-background-saturate: 140%;
-  --fluent-guilds-icon-size: 32px;
+  --fluent-guilds-icon-size: 24px;
 }
 
 /**
