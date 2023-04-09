@@ -6,7 +6,17 @@
  * @invite ZYrCacRuez
  * @source https://github.com/TakosThings/Fluent-Discord
 */
-@import url(https://takosthings.github.io/Fluent-Discord/Fluent-Discord.css); /**
+@import url(https://takosthings.github.io/Fluent-Discord/Fluent-Discord.css);
+/* Pop Effect */
+@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
+
+/* Message Bubble in Left Side */
+@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
+/* Default Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css); */
+/* New Message Bubble */
+/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css); /**
+
  * Start user options
  * Visit the wiki for information on this section
  * https://github.com/TakosThings/Fluent-Discord/wiki
@@ -25,22 +35,12 @@
   --fluent-accent-hue-sat: 207, 100%;
   --fluent-accent-lightness: 42%;
   --fluent-text-on-accent-color: 0, 0, 0;
-  --fluent-acrylic-background: url(https://cdn.discordapp.com/attachments/862716886067445820/887579790289297408/Captured_Motion_27.jpg);
+  --fluent-acrylic-background: url(https://raw.githubusercontent.com/Arkahilum/Discord-Theme/main/wallpaper/crim/crim%20text%20cleaned%20up.png);
   --fluent-acrylic-background-blur: 24px;
   --fluent-acrylic-background-dimness: 75%;
   --fluent-acrylic-background-saturate: 140%;
   --fluent-guilds-icon-size: 24px;
 }
-
-/* Pop Effect */
-@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
-
-/* Message Bubble in Left Side */
-@import url(https://zuzumi-f.github.io/Discord-11/release/messagebubbleleft.css);
-/* Default Message Bubble */
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css); */
-/* New Message Bubble */
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css); */
 
 /**
  * End user options
