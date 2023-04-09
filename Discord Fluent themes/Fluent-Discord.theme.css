@@ -36,8 +36,8 @@
   --fluent-accent-lightness: 42%;
   --fluent-text-on-accent-color: 0, 0, 0;
   --fluent-acrylic-background: url(https://raw.githubusercontent.com/Arkahilum/Discord-Theme/main/wallpaper/crim/crim%20text%20cleaned%20up.png);
-  --fluent-acrylic-background-blur: 8px;
-  --fluent-acrylic-background-dimness: 0%;
+  --fluent-acrylic-background-blur: 6px;
+  --fluent-acrylic-background-dimness: 35%;
   --fluent-acrylic-background-saturate: 140%;
   --fluent-guilds-icon-size: 46px;
 }
