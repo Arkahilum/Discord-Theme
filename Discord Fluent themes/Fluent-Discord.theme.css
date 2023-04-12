@@ -17,6 +17,9 @@
 /* New Message Bubble */
 /* @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubblenew.css); /**
 
+/* Reverse the position of Server list and members */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css');
+
  * Start user options
  * Visit the wiki for information on this section
  * https://github.com/TakosThings/Fluent-Discord/wiki
