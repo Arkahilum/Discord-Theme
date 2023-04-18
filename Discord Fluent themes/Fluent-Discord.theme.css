@@ -45,3 +45,34 @@
 /**
  * End user options
 */
+
+/* thanks @The Sun for this ungodly string of nonsense in my eyes */
+[data-list-item-id*="chat-messages_"]:not(:has(> [class*="contents"] > [class*="isSending"])) {
+  animation: slide-in 0.6s;
+}
+[data-list-item-id*="chat-messages_"]:has(> [class*="contents"] > [class*="isSending"]) {
+    opacity: 0;
+    animation: slide-in 0.6s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+}
+/* thanks @Deko for all this easy code i wrote 100% myself */
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* -- Remove the Christmas gifting button || Samu -- */
+[class="container-3Csys8"] {
+    display: none !important;
+}
+
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > button {
+    display: none !important
+}
