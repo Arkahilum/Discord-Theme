@@ -153,3 +153,12 @@ Message bubble styles [If you don't want any place a /* in all]
         transform: translateX(0px);
     }
 }
+
+/* -- Remove the Christmas gifting button || Samu -- */
+[class="container-3Csys8"] {
+    display: none !important;
+}
+
+#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > button {
+    display: none !important
+}
