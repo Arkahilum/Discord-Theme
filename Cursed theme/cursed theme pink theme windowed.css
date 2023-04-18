@@ -153,3 +153,8 @@ Message bubble styles [If you don't want any place a /* in all]
         transform: translateX(0px);
     }
 }
+
+/* no badges */
+[class^=userPopoutInner] > [aria-label^=User] {
+  display: none;
+} 
