@@ -46,6 +46,21 @@
  * End user options
 */
 
+/* compact embeds */
+[id^=message-accessories] [class^=gridContainer] > [class^=grid] {
+  padding: 8px;
+}
+[id^=message-accessories] [class^=gridContainer] > [class^=grid] > * {
+  margin-top: 2px; 
+}
+[id^=message-accessories] [class^=gridContainer] > [class^=grid] [class^=message] {
+  margin-bottom: 4px;
+}
+[id^=message-accessories] [class^=gridContainer] > [class^=grid] [class^=message] h3[class*=header] {
+  margin-top: 0px;
+}
+
+/* Sliding Messages */
 /* thanks @The Sun for this ungodly string of nonsense in my eyes */
 [data-list-item-id*="chat-messages_"]:not(:has(> [class*="contents"] > [class*="isSending"])) {
   animation: slide-in 0.6s;
@@ -56,6 +71,7 @@
     animation-delay: 0.4s;
     animation-fill-mode: forwards;
 }
+
 /* thanks @Deko for all this easy code i wrote 100% myself */
 @keyframes slide-in {
     0% {
@@ -68,7 +84,7 @@
     }
 }
 
-/* -- Remove the Christmas gifting button || Samu -- */
+/* Remove gift button */
 [class="container-3Csys8"] {
     display: none !important;
 }
