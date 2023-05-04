@@ -59,7 +59,7 @@ Message bubble styles [If you don't want any place a /* in all]
     --bg-gradient1: #e297b2;
     --bg-gradient2: #c0b4d5;
     --bg-gradient3: #54b5de;
-    --bg-image: url(https://raw.githubusercontent.com/Arkahilum/Discord-Theme/main/wallpaper/crim/99901442_p0.jpg); /* Write the image url, example url("your url") [none is default]*/
+    --bg-image: url(https://github.com/Arkahilum/Discord-Themes/raw/main/wallpaper/105998772_p0.png); /* Write the image url, example url("your url") [none is default]*/
     --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
     --bg-blur: 8px; /* Value in px */
 
