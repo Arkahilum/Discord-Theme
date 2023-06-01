@@ -140,3 +140,17 @@ Message bubble styles [If you don't want any place a /* in all]
 #app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > button {
     display: none !important
 }
+
+span.vc-platform-indicator > svg {
+   width: 15px !important;
+  height: 15px !important;
+  fill: var(--brand-500) !important; /* whatever color */
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+div.profileBadges-2pItdR.containerWithContent-2Yws8V.container-1gYwHN > span.vc-platform-indicator > svg {
+  width: 20px !important;
+  height: 20px !important;
+  fill: var(--brand-500) !important; /* whatever color */
+}
