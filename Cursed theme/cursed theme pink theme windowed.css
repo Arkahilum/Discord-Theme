@@ -162,3 +162,19 @@ div.profileBadges-2pItdR.containerWithContent-2Yws8V.container-1gYwHN > span.vc-
 .content-yjf30S .children-1MGS9G {
   padding-top: 0;
 }
+
+/* Compact Channels */ 
+.container-1NXEtd {
+    max-height: 200%;
+    min-height: 110%;
+}
+.container-1NXEtd ~ .panels-3wFtMD {
+    position: absolute;
+    width: 240px;
+    bottom: 0;
+}
+.container-1NXEtd .mainContent-20q_Hp,
+.iconItem-1EjiK0 { padding: 5px 0 }
+.container-1NXEtd .wrapper-NhbLHG,
+.container-1NXEtd .content-1gYQeQ { padding: 0 }
+.containerDefault-3TQ5YN { padding-top: 8px }
