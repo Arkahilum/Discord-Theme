@@ -170,3 +170,11 @@ div.profileBadges-2pItdR.containerWithContent-2Yws8V.container-1gYwHN > span.vc-
 .tabBar-2hXqzU {
     justify-content: center;
 }
+
+/* Fix ping & channel typing indicator alignment */ 
+.content-yjf30S .content-1gYQeQ {
+    align-items: center;
+}
+.content-yjf30S .children-1MGS9G {
+  padding-top: 0;
+}
