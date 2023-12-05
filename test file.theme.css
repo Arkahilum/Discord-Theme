@@ -51,3 +51,13 @@
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
 }
+
+               Make it look Like Another Window
+---------------------------------------------------------------*/
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/window-mode.css');
+
+/* Animate the background */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
+
+/* Pop Effect */
+@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
